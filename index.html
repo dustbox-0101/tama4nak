@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>監視スレテンプレまとめ</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex,nofollow,none,noodp,noarchive,nosnippet,noimageindex,nocache">
+        <style media="screen">
+            fieldset { margin-bottom: 1rem; display: flex; justify-content: center; }
+            textarea { width: 90vw; height: 3.5rem; }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/umbrellajs"></script>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>&gt;&gt;1</legend>
+                <textarea id="temp_00"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;2 （恫喝DMのあれそれ）</legend>
+                <textarea id="temp_01"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;3 （ヤクザメソッド）</legend>
+                <textarea id="temp_02"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;4 （脅し論法がよくわかるツイート）</legend>
+                <textarea id="temp_03"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;5 （来未騒動の経緯）</legend>
+                <textarea id="temp_04"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;6 （過去の発言集）</legend>
+                <textarea id="temp_06"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;7 （まなべ氏自宅凸）</legend>
+                <textarea id="temp_07"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;8 （痛切な祈り）</legend>
+                <textarea id="temp_08"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;9 （チャーハン）</legend>
+                <textarea id="temp_09_1"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;10 （わかってなかった集）</legend>
+                <textarea id="temp_09_2"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;11 （過去の発言集その2）</legend>
+                <textarea id="temp_10_1"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;12 （債務不存在確認）</legend>
+                <textarea id="temp_11"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;13 （要注意人物）</legend>
+                <textarea id="temp_12"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;14 （おまけネタ？）</legend>
+                <textarea id="temp_13"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>&gt;&gt;15 （人生トレパクおじさん）</legend>
+                <textarea id="temp_14"></textarea>
+            </fieldset>
+        </form>
+
+        <!-- js -->
+        <script>
+            function ReadText(filename) {
+                var t = '';
+                (() => {
+                    let r = new XMLHttpRequest();
+                    r.open('GET', './templates/'+ filename +'.txt', false);
+                    r.addEventListener('load', function() { t = this.responseText; });
+                    r.send();
+                })();
+                return t;
+            }
+
+            window.addEventListener('load', function() {
+                u('textarea').each(function(node, i) {
+                    let txt = ReadText(u(node).attr('id'));
+                    node.value = txt;
+                });
+            })
+        </script>
+    </body>
+</html>
