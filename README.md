@@ -4,8 +4,8 @@
 
 
 
-part115    
-ttps://rio2016.5ch.net/test/read.cgi/twwatch/1714700192/
-
 part116    
 ttps://rio2016.5ch.net/test/read.cgi/twwatch/1715764027/
+
+part117    
+ttps://rio2016.5ch.net/test/read.cgi/twwatch/1717058322/
