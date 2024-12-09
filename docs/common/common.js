@@ -11,7 +11,11 @@
             u('body').removeClass('modal');
         });
         const $img = u('<img>').attr('id', 'dialog_img');
-        $article.append($img);
+        const $btn = u('<button>').attr({
+            id: 'dialog_close',
+            type: 'button'
+        }).text('閉じる');
+        $article.append($btn).append($img);
         $div.append($article);
         u('body').append($div);
         // event
