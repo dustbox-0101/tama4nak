@@ -2,7 +2,7 @@
     u('a#upper').handle('click', function(e) {
         window.scroll({top: 0, behavior: 'smooth'});
     });
-    u('article.tweet > blockquote > a').handle('click', function(e) {});
+    u('article.tweet > blockquote a').handle('click', function(e) {});
     // ---
     if(0 < u('img.psc').length) {
         const $div = u('<div>').attr('id', 'dialog').addClass('hidden');

@@ -42,37 +42,38 @@ main {
 }
 
 main > article { margin: 1rem 0 2rem; }
-main > article.tweet {
+article.tweet {
     border-left: 1px solid #4c566a;
     padding-left: .5rem;
     padding-bottom: .4rem;
 }
-main > article.tweet > blockquote {
+article.tweet > blockquote {
     border-left: 2px solid #ccc;
     margin-left: .5rem;
     padding-left: 1rem;
     color: #333;
 }
-main > article.tweet > blockquote > p {
+article.tweet > blockquote > p {
     margin: .2rem 0;
     padding: .5rem 0;
 }
-main > article.tweet > blockquote > a {
+article.tweet > blockquote > a {
     color: #333;
     cursor: default;
 }
-main > article.tweet > div.imgs {
+article.tweet > div.imgs {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-main > article.tweet > div.imgs > img {
+article.tweet > div.imgs > img {
     margin: 0 .2rem;
     height: 180px;
     object-fit: cover;
 }
 
 main > article > h3 { margin: 0; }
+main > article > aside { padding: .5rem; }
 
 img.psc {
     width: 180px;
@@ -80,7 +81,7 @@ img.psc {
     border: 3px double #000;
     border-radius: 1rem;
 }
-
+img.own { border: 3px dashed #333; }
 
 div#dialog {
     margin: 0;
