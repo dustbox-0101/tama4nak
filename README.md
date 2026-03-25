@@ -4,4 +4,4 @@
 
 
 part151    
-ttps://rio2016.5ch.net/test/read.cgi/twwatch/1769914789/
+ttps://rio2016.5ch.io/test/read.cgi/twwatch/1769914789/
