@@ -3,5 +3,5 @@
 "Copy raw contents" で一括コピーできそうです。
 
 
-part151    
-ttps://rio2016.5ch.io/test/read.cgi/twwatch/1769914789/
+part152    
+ttps://rio2016.5ch.io/test/read.cgi/twwatch/1774627973/
