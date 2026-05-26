@@ -7,11 +7,18 @@
 
 前：https://rio2016.5ch.io/test/read.cgi/twwatch/1777640886/
 
+
 ★まとめ ※サーバ停止中（ドメイン切れてる）
-tt[ps]/esgwiki.org/wiki/%E5%80%9F%E9%87%91%E7%8E%89
+htt[ps]/esgwiki.org/wiki/%E5%80%9F%E9%87%91%E7%8E%89
 ※Wayback Machineに残っているESGwiki
-tt[ps]/web.archive.org/web/20211101233343/htt[ps]/esgwiki.org/wiki/%E5%80%9F%E9%87%91%E7%8E%89
+htt[ps]/web.archive.org/web/20211101233343/htt[ps]/esgwiki.org/wiki/%E5%80%9F%E9%87%91%E7%8E%89
 　↑ [ps] を「ps:/」に置換してください。
+
+
+★Webアーカイブ
+htt[ps]/archive.is/htt[ps]/x.com/syakkin_dama/*
+　↑ [ps] を「ps:/」に置換してください。
+
 
 ※レスの内容に違和感を覚えた場合、スクリプトの書き込みである可能性があります。
 　スクリプトの画像を開く際はグロ耐性が必須です。ご注意ください。
